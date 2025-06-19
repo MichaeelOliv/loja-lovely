@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('assets/logo\ lovely.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(26, 26, 26, 0.9); /* Camada escura para legibilidade */
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(45, 45, 45, 0.8); /* Transparência para harmonia */
+}
+
+.logo {
+    width: 150px; /* Ajuste conforme o tamanho da imagem de coração */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(1.2em, 3vw, 1.5em);
+    color: #d4a017;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: clamp(0.9em, 2vw, 1.1em);
+}
+
+#shop {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.product-grid {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.product {
+    background: rgba(51, 51, 51, 0.9); /* Ajuste para legibilidade com fundo */
+    padding: 15px;
+    border-radius: 5px;
+    min-width: 180px;
+    margin-right: 15px;
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: clamp(1em, 2.5vw, 1.2em);
+}
+
+.product p {
+    color: #d4a017;
+    font-weight: bold;
+    font-size: clamp(0.9em, 2vw, 1.1em);
+}
+
+.buy-btn {
+    background-color: #d4a017;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: clamp(0.8em, 2vw, 1em);
+}
+
+.buy-btn:hover {
+    background-color: #b88f14;
+}
+
+.scroll-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    width: 100px;
+    background-color: #d4a017;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: clamp(0.8em, 2vw, 1em);
+}
+
+.scroll-btn:hover {
+    background-color: #b88f14;
+}
+
+.prev-btn { order: 1; }
+.next-btn { order: 2; }
+
+#cart {
+    padding: 20px;
+    text-align: center;
+}
+
+#cart-items {
+    margin: 20px 0;
+}
+
+#cart-items div {
+    background: rgba(51, 51, 51, 0.9);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#cart-total {
+    font-weight: bold;
+    color: #d4a017;
+    margin: 10px 0;
+}
+
+.cart-action {
+    background-color: #d4a017;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: clamp(0.8em, 2vw, 1em);
+}
+
+.cart-action:hover {
+    background-color: #b88f14;
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.8);
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#contact h2 {
+    font-size: clamp(1.5em, 3vw, 2em);
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: clamp(1em, 2vw, 1.2em);
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #d4a017;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(45, 45, 45, 0.8);
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .product-container {
+        max-width: 360px;
+    }
+    .scroll-btn {
+        width: 80px;
+    }
+    .cart-action {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

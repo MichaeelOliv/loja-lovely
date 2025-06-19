@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely - Loja de Roupas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="assets/logo lovely.jpg" alt="Lovely Logo" class="logo">
+        <p>Lovely Conceito</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#shop">Loja</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="shop">
+        <h2>Nossa Coleção</h2>
+        <div class="product-container">
+            <div class="product-grid" id="product-grid"></div>
+            <button class="scroll-btn prev-btn" onclick="scrollProducts(-1)">Anterior</button>
+            <button class="scroll-btn next-btn" onclick="scrollProducts(1)">Próximo</button>
+        </div>
+    </section>
+      <section id="contact">
+        <h2>Entre em Contato</h2>
+        <p><strong>Instagram:</strong> <a href="https://instagram.com/lovely_conceito" target="_blank">@Lovely_conceito</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/558899999999" target="_blank">(88) 99999-9999</a></p>
+        <p><strong>Endereço:</strong> Rua Teixeira de Freitas 124, Centro, Quixeramobim-CE</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Lovely - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
