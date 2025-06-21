@@ -6,9 +6,9 @@
 }
 
 body {
-    background: url('assets/logo\ lovely.jpg') no-repeat center center fixed;
+    background: url('assets/Logotipo.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-color: rgba(26, 26, 26, 0.9); /* Camada escura para legibilidade */
+    background-color: rgba(131, 126, 126, 0.8); /* Camada escura para legibilidade */
     color: #fff;
     line-height: 1.6;
 }
@@ -16,7 +16,7 @@ body {
 header {
     text-align: center;
     padding: 15px;
-    background-color: rgba(45, 45, 45, 0.8); /* Transparência para harmonia */
+    background-color: rgba(131, 126, 126, 0.8); /* Transparência para harmonia */
 }
 
 .logo {
@@ -28,7 +28,7 @@ header {
 header p {
     font-family: 'Great Vibes', cursive;
     font-size: clamp(1.2em, 3vw, 1.5em);
-    color: #d4a017;
+    color: #000000;
 }
 
 nav ul {
@@ -43,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: clamp(0.9em, 2vw, 1.1em);
 }
@@ -86,13 +86,13 @@ nav ul li a {
 }
 
 .product p {
-    color: #d4a017;
+    color: #030303;
     font-weight: bold;
     font-size: clamp(0.9em, 2vw, 1.1em);
 }
 
 .buy-btn {
-    background-color: #d4a017;
+    background-color: #0c0c0b;
     border: none;
     padding: 10px;
     color: #fff;
@@ -103,14 +103,14 @@ nav ul li a {
 }
 
 .buy-btn:hover {
-    background-color: #b88f14;
+    background-color: #030303;
 }
 
 .scroll-btn {
     display: inline-block;
     margin: 10px 5px;
     width: 100px;
-    background-color: #d4a017;
+    background-color: #080808;
     border: none;
     padding: 10px;
     color: #fff;
@@ -120,7 +120,7 @@ nav ul li a {
 }
 
 .scroll-btn:hover {
-    background-color: #b88f14;
+    background-color: #030303;
 }
 
 .prev-btn { order: 1; }
@@ -144,7 +144,7 @@ nav ul li a {
 
 #cart-total {
     font-weight: bold;
-    color: #d4a017;
+    color: #050505;
     margin: 10px 0;
 }
 
@@ -182,7 +182,7 @@ nav ul li a {
 }
 
 #contact a {
-    color: #d4a017;
+    color: #bb4848;
     text-decoration: none;
 }
 
