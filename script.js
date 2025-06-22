@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Configurar Mercado Pago
 function initMercadoPago() {
-    const mp = new MercadoPago('SUA_PUBLIC_KEY', { // Substitua por sua Public Key do Mercado Pago
+    const mp = new MercadoPago('APP_USR-830cb8d0-5c07-4188-91ff-bbab9d261464', { // Substitua por sua Public Key do Mercado Pago
         locale: 'pt-BR'
     });
 
@@ -105,7 +105,7 @@ function initMercadoPago() {
     fetch('https://api.mercadopago.com/checkout/preferences', {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer SUA_ACCESS_TOKEN`, // Substitua por seu Access Token
+            'Authorization': `APP_USR-7964452701410165-062218-1a6daf5a9938036c3c58f4ffaf8b0fec-139830820`, // Substitua por seu Access Token
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(orderData)
